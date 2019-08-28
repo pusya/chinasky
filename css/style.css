@@ -1,0 +1,22 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 11px;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+}
+
+.navbar-brand {
+  font-family: "Shadows Into Light Two", cursive !important;
+  color: rgb(4, 91, 190) !important;
+  font-weight: bold !important;
+}

@@ -1,10 +1,11 @@
 body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
 .navbar-nav .nav-link {
-  font-size: 11px;
+  font-size: 0.7rem;
 }
 
 .nav-item {
@@ -19,4 +20,90 @@ body {
   font-family: "Shadows Into Light Two", cursive !important;
   color: rgb(4, 91, 190) !important;
   font-weight: bold !important;
+}
+
+#p-image {
+  background-image: url("../img/img1.jpg");
+  height: 670px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#heading,
+.heading-text {
+  margin-left: 4.5rem;
+  background-color: white;
+}
+
+#heading {
+  margin-top: 22rem;
+}
+
+.lead-img {
+  width: 570px;
+}
+
+#display {
+  margin-top: 7rem;
+}
+
+.dish-img {
+  width: 250px;
+  margin-top: 3rem;
+}
+
+#display-dish {
+  margin-left: 3.5rem;
+}
+
+#p-image2 {
+  background-image: url("../img/img4.jpg");
+  height: 530px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 6rem;
+}
+
+#heading-b {
+  margin-top: 7rem;
+}
+
+#space1 {
+  padding-left: 2.5rem;
+}
+
+#space2 {
+  padding-left: 2.1rem;
+}
+
+#space3 {
+  padding-left: 0.35rem;
+}
+
+#space4 {
+  padding-left: 0.1rem;
+}
+
+#main-footer {
+  font-size: 0.7rem;
+}
+
+#welcome-list {
+  font-size: 0.9rem;
+  line-height: 2.5rem;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: underline;
 }

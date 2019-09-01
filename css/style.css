@@ -1,9 +1,12 @@
+html,
 body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   overflow-x: hidden;
 }
-
+.navbar-brand img {
+  width: 9rem;
+}
 .navbar-nav .nav-link {
   font-size: 0.7rem;
 }
@@ -16,19 +19,16 @@ body {
   outline: none !important;
 }
 
-.navbar-brand {
-  font-family: "Shadows Into Light Two", cursive !important;
-  color: rgb(4, 91, 190) !important;
-  font-weight: bold !important;
-}
-
-#p-image {
-  background-image: url("../img/img1.jpg");
-  height: 670px;
+.p-image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+#welcome {
+  background-image: url("../img/img1.jpg");
+  height: 680px;
 }
 
 #heading,
@@ -42,20 +42,22 @@ body {
 }
 
 .lead-img {
-  width: 570px;
+  width: 600px;
 }
 
 #display {
-  margin-top: 7rem;
+  margin-top: 6rem;
+  text-align: center;
 }
 
 .dish-img {
-  width: 250px;
+  width: 260px;
   margin-top: 3rem;
 }
 
-#display-dish {
-  margin-left: 3.5rem;
+#description {
+  text-align: left;
+  margin-left: 3rem;
 }
 
 #p-image2 {
@@ -65,7 +67,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 #heading-b {
@@ -94,7 +96,7 @@ body {
 
 #welcome-list {
   font-size: 0.9rem;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 
 a {
@@ -106,4 +108,37 @@ a:hover,
 a:focus {
   color: #000;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  #heading {
+    font-size: 2rem;
+    margin-top: 18rem;
+  }
+  .heading-text {
+    font-size: 1rem;
+  }
+
+  #heading-b,
+  #hours {
+    margin: 2rem;
+  }
+}
+
+/* location page*/
+
+#location {
+  background-image: url("../img/img5.jpg");
+  height: 420px;
+}
+
+#location-text {
+  line-height: 2.5rem;
+}
+
+/*menu page*/
+
+#menu {
+  background-image: url("../img/img3.jpg");
+  height: 420px;
 }

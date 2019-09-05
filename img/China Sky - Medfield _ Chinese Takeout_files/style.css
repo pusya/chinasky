@@ -28,7 +28,7 @@ body {
 
 #welcome {
   background-image: url("../img/img1.jpg");
-  height: 690px;
+  height: 680px;
 }
 
 #heading,
@@ -153,30 +153,10 @@ a:focus {
   height: 420px;
 }
 
-.menu-sections {
+#menu-section {
   letter-spacing: 0.7px !important;
 }
 
 .menu-detail {
   font-size: 0.7rem;
-  line-height: 0rem !important;
-}
-
-.menu-titles {
-  font-weight: 900;
-  text-align: center;
-  margin-bottom: 3rem;
-  letter-spacing: 2px !important;
-}
-
-.menu-titles-des {
-  font-weight: 900;
-  text-align: center;
-  letter-spacing: 2px !important;
-  margin-top: 3rem;
-}
-
-.section-description {
-  font-size: 0.9rem;
-  text-align: center;
 }

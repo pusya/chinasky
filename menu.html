@@ -1,126 +1,1572 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light+Two&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>China Sky - Medfield | Chinese Takeout</title>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="container py-3">
-        <a class="navbar-brand" href="index.html"
-          ><img src="./img/logo.jpg" alt="CHINA SKY"
-        /></a>
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item pl-1">
-              <a class="nav-link" href="index.html">WELCOME</a>
-            </li>
-            <li class="nav-item pl-1">
-              <a class="nav-link" href="menu.html">MENU</a>
-            </li>
-            <li class="nav-item pl-1">
-              <a class="nav-link" href="location.html">LOCATION</a>
-            </li>
-            <li class="nav-item pl-1">
-              <a class="nav-link" href="gallery.html">GALLERY</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light+Two&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>China Sky - Medfield | Chinese Takeout</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container py-3">
+      <a class="navbar-brand" href="index.html"><img src="./img/logo.jpg" alt="CHINA SKY" /></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pl-1">
+            <a class="nav-link" href="index.html">WELCOME</a>
+          </li>
+          <li class="nav-item pl-1">
+            <a class="nav-link" href="menu.html">MENU</a>
+          </li>
+          <li class="nav-item pl-1">
+            <a class="nav-link" href="location.html">LOCATION</a>
+          </li>
+          <li class="nav-item pl-1">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <header class="p-image" id="menu">
+
+  <header class="p-image" id="menu">
+    <h4 class="display-5 d-inline-block p-4 heading-text mt-5 text-center" id="location-text">
+      Call for takeout at <br />
+      (508)242-9688
+    </h4>
+  </header>
+
+
+  <nav class="navbar navbar-expand-xl navbar-light sticky-top" id="menu-nav">
+    <div class="py-3 ml-auto">
+      <button class="navbar-toggler"  data-toggle="collapse" data-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav mx-5">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#appetizer">Appetizer</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#soup">Soup</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#house-specials">House Special</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#poultry">Poultry</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#pork">Pork</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#beef">Beef</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#seafood">Seafood</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#vegetable">Vegetable</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#moo-shu">Moo Shu</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#health-food">Health Food</a>
+          </li>
+
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#rice">Rice</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#lo-mein">Lo Mein</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#chow-mein">Chow Mein</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#seafood">Seafood</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#pad-thai">Pad Thai</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#ho-foon">Ho Foon</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#foo-young">Foo Young</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#rice-noodle">Rice Noodle</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!----------------- APPETIZER ---------------->
+  <a class="anchor" id="appetizer"></a>
+  <section>
+    <div class="container pt-5 menu-sections">
+      <h2 class="menu-titles">APPETIZER</h2>
       <div class="row">
-        <div class="col mt-4">
-          <h4
-            class="display-5 d-inline-block p-4 heading-text mt-5 text-center"
-            id="location-text"
-          >
-            Call for take out at <br />
-            (508)242-9688
-          </h4>
-        </div>
-      </div>
-    </header>
-
-    <section>
-      <div class="container pt-5">
-        <h2 class="text-center py-5 font-weight-bold">APPETIZER</h2>
-        <div class="row justify-content-center" id="menu-section">
-          <div class="col-md-6 col-lg-4">
-            <div class="row justify-content-center">
-              <div class="col-9 mb-4">EDAMAME</div>
-              <div class="col-3 mb-4">4.95</div>
-              <div class="col-9 mb-4">Egg Roll (1)</div>
-              <div class="col-3 mb-4">2.05</div>
-              <div class="col-9 mb-4">VEGETARIAN SPRING ROLL (1)</div>
-              <div class="col-3 mb-4">2.05</div>
-              <div class="col-9 mb-4">FRIED CHICKEN WINGS (4)</div>
-              <div class="col-3 mb-4">7.45</div>
-              <div class="col-9 mb-4">FRIED CHICKEN FINGER</div>
-              <div class="col-3 mb-4">7.45</div>
-              <div class="col-9 mb-4">
-                PORK DUMPLINGS (6)<br />
-                <span class="menu-detail">steamed or fried</span>
-              </div>
-              <div class="col-3 mb-4">7.45</div>
-              <div class="col-9 mb-4">
-                VEGETABLE DUMPLINGS (6)<br />
-                <span class="menu-detail">steamed or fried</span>
-              </div>
-              <div class="col-3 mb-4">7.45</div>
-              <div class="col-9 mb-4">
-                CHICKEN DUMPLINGS (6)<br />
-                <span class="menu-detail">steamed or fried</span>
-              </div>
-              <div class="col-3 mb-4">7.45</div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="row justify-content-center">
-              <div class="col-9 mb-4">
-                STEAM SHU MAI<br />
-                <span class="menu-detail">w/ pork, shrimp & vegetable</span>
-              </div>
-              <div class="col-3 mb-4">7.95</div>
-              <div class="col-9 mb-4">BBQ BONELESS RIBS</div>
-              <div class="col-3 mb-4">7.45</div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="row justify-content-center">
-              <div class="col-9 mb-4">Edamame</div>
-              <div class="col-3 mb-4">4.95</div>
-              <div class="col-9 mb-4">Egg Roll (1)</div>
-              <div class="col-3 mb-4">2.05</div>
-            </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">EDAMAME</div>
+            <div class="col-3 text-right">4.95</div>
           </div>
         </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">Egg Roll (1)</div>
+            <div class="col-3 text-right">2.05</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              VEGE SPRING ROLL(1)
+            </div>
+            <div class="col-3 text-right">2.05</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN WINGS (4)</div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">FRIED CHICKEN FINGER</div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              PORK DUMPLINGS (6)<br />
+              <span class="menu-detail">steamed or fried</span>
+            </div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              VEGE DUMPLINGS (6)<br />
+              <span class="menu-detail">steamed or fried</span>
+            </div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CHICKEN DUMPLINGS (6)<br />
+              <span class="menu-detail">steamed or fried</span>
+            </div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              STEAM SHU MAI (6))<br /><span class="menu-detail">w/ pork, shrimp & vegetable</span>
+            </div>
+            <div class="col-3 text-right">7.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BBQ BONELESS RIBS
+            </div>
+            <div class="col-3 text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN TERIYAKI (4)<br /></div>
+            <div class="col-3 text-right">6.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEEF TERIYAKI (4)
+            </div>
+            <div class="col-3 text-right">7.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              FRIED SHRIMP (4)
+            </div>
+            <div class="col-3 text-right">6.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CRAB RANGOON (8)<br /></div>
+            <div class="col-3 text-right">6.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SCALLION PANCAKE
+            </div>
+            <div class="col-3 text-right">5.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SCALLION PANCAKE W/ SLICED BEEF
+            </div>
+            <div class="col-3 text-right">7.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">COLD NOODLES W/ SESAME SAUCE<br /></div>
+            <div class="col-3 text-right">6.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SUGAR BISCUITS
+            </div>
+            <div class="col-3 text-right">6.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              STEAMED ROAST PORK BUNS (2)<br />
+              <span class="menu-detail">diced roast pork w/ hoisin sauce</span>
+            </div>
+            <div class="col-3 text-right">4.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CRISPY CALAMARI W/ SALT & BLACK PEPPER</div>
+            <div class="col-3 text-right">12.25</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              APPETIZER PLATTER FOR ONE
+            </div>
+            <div class="col-3 text-right">11.45</div>
+          </div>
+        </div>
+        <a name="soup"></a>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              APPETIZER PLATTER FOR TWO<br />
+              <span class="menu-detail">chicken finger, chicken wing, bbq boneless ribs, beef
+                teriyaki, chicken teriyaki, crab rangoon, spring roll</span>
+            </div>
+            <div class="col-3 text-right">19.95</div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer id="main-footer">
+  <!---------- SOUP --------->
+  <a class="anchor" id="soup"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">SOUP</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">EGG DROP SOUP</div>
+            <div class="col-3 text-right text-right">2.55(S)</div>
+            <div class="col-3 text-right offset-8 text-right">4.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HOT & SOUR SOUP</div>
+            <div class="col-3 text-right text-right">2.55(S)</div>
+            <div class="col-3 text-right offset-8 text-right">4.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">WONTON SOUP</div>
+            <div class="col-3 text-right text-right">2.95(S)</div>
+            <div class="col-3 text-right offset-8 text-right">4.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN RICE SOUP</div>
+            <div class="col-3 text-right text-right">3.55(S)</div>
+            <div class="col-3 text-right offset-8 text-right">5.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN NOODLE SOUP</div>
+            <div class="col-3 text-right text-right">3.55(S)</div>
+            <div class="col-3 text-right offset-8 text-right">5.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              WONTON NOODLE SOUP
+            </div>
+            <div class="col-3 text-right text-right">7.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEAN CURD WITH VEGETABLE SOUP FOR TWO
+            </div>
+            <div class="col-3 text-right text-right">7.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              HOUSE SPECIAL SOUP FOR TWO
+            </div>
+            <div class="col-3 text-right text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SEAFOOD HOT & SOUR SOUP<br /><span class="menu-detail">scollop, shrimp, imitation crab meat, blended with
+                hot & sour
+                spice</span>
+            </div>
+            <div class="col-3 text-right text-right">13.45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------- HOUSE SPECIALS -------------------->
+  <a class="anchor" id="house-specials"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">HOUSE SPECIALS</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              GENERAL TSO'S BEAN CURD<br /><span class="menu-detail">Chunks of bean curd sauteed with broccoli, red and
+                green
+                peppers in an exotic Hunan sauce</span>
+            </div>
+            <div class="col-2 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              GENERAL TSO'S CHICKEN<br /><span class="menu-detail">Chunks of chicken sauteed with broccoli, red and
+                green
+                peppers in an exotic Hunan sauce</span>
+            </div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              PINEAPPLE CHICKEN<br /><span class="menu-detail">Sliced chicken with pineapple chunks</span>
+            </div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              CRISPY SESAME CHICKEN<br /><span class="menu-detail">Strips of white meat chicken dipped in lotus flour,
+                fried and
+                cooked in an exquisite sesame seed sauce</span>
+            </div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              TANGERINE CHICKEN<br /><span class="menu-detail">Chunks of chicken coated with lotus flour, fried until
+                crisp
+                while the inside remains tender, then enhanced by a special
+                flavor sauce</span>
+            </div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              HAPPY FAMILY<br /><span class="menu-detail">Sliced Chicken, scallops, shrimp and pork, precisely balanced
+                with mixed vegetables in a brown sauce</span>
+            </div>
+            <div class="col-2 text-right">15.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              TANGERINE BEEF<br /><span class="menu-detail">Thick strips of prime beef deep fried until crispy on the
+                outside and tender on the inside then sautéed in a delicate
+                tangerine sauce</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              BASIL DELIGHT<br /><span class="menu-detail">Chinese culinary tradition is reverted in this splendid
+                combination of scallop, shrimp, and slices of chicken breast
+                precisely balanced with green basil</span>
+            </div>
+            <div class="col-2 text-right">15.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              MANGOES DUO<br /><span class="menu-detail">Jumbo shrimp and chicken sauteed with mangoes in Chef's
+                special sauce</span>
+            </div>
+            <div class="col-2 text-right">14.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              LADY TSO'S SHRIMP<br /><span class="menu-detail">Fresh jumbo shrimp deep fried in a Hunan sauce and served
+                with assorted vegetable.</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              PRAWN AMAZING<br /><span class="menu-detail">Jumbo shrimp stir-fried with a variety of Chinese vegetables
+                in a special Hunan-Szechuan mixed sauce</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              CRISPY SESAME SHRIMP
+              <br /><span class="menu-detail">Jumbo shrimp lightly dipped in lotus flour and quickly cooked
+                in sesame sauce</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              CHINA SKY CRYSTAL SHRIMP
+              <br /><span class="menu-detail">Fresh shrimp quickly sauteed with scallion and ginger.
+                Delicately flavored with other ingredients</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              DYNASTY DUO<br /><span class="menu-detail">Fresh jumbo shrimp and shredded chicken sauteed with
+                snow peas, black mushroom in a chef's special garlic
+                sauce</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              CHINA SKY SEAFOOD<br /><span class="menu-detail">A mixture of seafood sauteed with Chinese vegetable bound
+                in
+                garlic sauce and served on pan fried noodles</span>
+            </div>
+            <div class="col-2 text-right">16.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              CRISPY SPICY FISH FILLET<br /><span class="menu-detail">Fish fillet deep fried to perfection and toopped
+                with our house sauce. Sauce is given separately</span>
+            </div>
+            <div class="col-2 text-right">14.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              STEAMED FISH FILLET W/ BLACK BEAN SAUCE<br /><span class="menu-detail">Steamed fish fillet over soft bean
+                curd and topped with spicy black bean sauce</span>
+            </div>
+            <div class="col-2 text-right">14.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              FISH FILLET WITH BASIL<br /><span class="menu-detail">Fish fillet deep fried to perfection and sauteed
+                with basil in our spicy brown sauce</span>
+            </div>
+            <div class="col-2 text-right">14.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              FISH FILLET WITH GARLIC SAUCE<br /><span class="menu-detail">Fish fillet deep fried to perfection and
+                sauteed with mix vegetable in garlic sauce</span>
+            </div>
+            <div class="col-2 text-right">14.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              PLUM DUCK<br /><span class="menu-detail">Half of boneless duck, sliced and served with our Master chef's
+                special plum sauce</span>
+            </div>
+            <div class="col-2 text-right">17.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              PEKING DUCK <br /><span class="menu-detail">The crispy skin of a whole duck served on crepes accompanied
+                with Hoisin sauce, shredded scallion and pancakes</span>
+            </div>
+            <div class="col-2 text-right">34.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              MANGO CHICKEN<br /><span class="menu-detail">Sliced chicken sauteed with mangoes in chef's special
+                sauce</span>
+            </div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              PINEAPPLE SHRIMP<br /><span class="menu-detail">Jumbo shrimp sauteed with pineapple chunks</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">
+              MANGO SHRIMP<br /><span class="menu-detail">Jumbo shrimp sauteed with mangoes in chef's special
+                sauce</span>
+            </div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">SESAME BEAN CURD<br /><span class="menu-detail">Chucks of bean curd fried and cooked in
+                an exquisite sesame seed sauce</span></div>
+            <div class="col-2 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">CURY CHICKEN<br /><span class="menu-detail">Sliced chicken stir-fried with snow peas,
+                onion, red and green peppers in curry sauce</span></div>
+            <div class="col-2 text-right">12.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">CRISPY SESAME BEEF<br /><span class="menu-detail">Thick strips of prime beef dipped in
+                lotus flour, fried and cooked in an exquisite sesame seed sauce</span></div>
+            <div class="col-2 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-9">MONGOLIAN BEEF<br /><span class="menu-detail">Tender beef with onion and scallion in a
+                special sauce</span></div>
+            <div class="col-2 text-right">13.45</div>
+          </div>
+        </div>
+        <!--row-->
+      </div>
+    </div>
+  </section>
+
+
+  <!------------------POULTRY----------------------->
+  <a class="anchor" id="poultry"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">POULTRY</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SWEET & SOUR CHICKEN</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">DICED CHICKEN W/ CASHEW NUTS</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">KUNG PAO CHICKEN</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">MOO GOO GAI PAN</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN W/ BROCCOLI <strong>OR</strong> MIXED VEGETABLE <strong>OR</strong> CHINESE
+              EGGPLANT</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CHICKEN W/ GARLIC SAUCE
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              GINGER CHICKEN W/ STRING BEANS
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              HUNAN CHICKEN
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CHICKEN AMAZING
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CHICKEN W/ BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BASIL CHICKEN
+            </div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CHICKEN PAN FRIED NOODLE
+            </div>
+            <div class="col-3 text-right">12.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------PORK----------------------->
+  <a class="anchor" id="pork"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">PORK</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHREDDED PORK W/ PEKING SAUCE</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">TWICE SAUTEED PORK</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK W/ GARLIC SAUCE</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HUNAN PORK</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK W/ BROCCOLI <strong>OR</strong> MIXED VEGETABLE <strong>OR</strong> SNOW PEAS</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              GINGER PORK W/ STRING BEANS
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              PORK WITH BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              KUNG PAO PORK
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              PORK W/ SCALLION
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------BEEF----------------------->
+  <a class="anchor" id="beef"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">BEEF</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHREDDED BEEF SZECHUAN STYLE</div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF W/ GARLIC SAUCE</div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF W/ PEPPER AND ONION</div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF W/ BLACK BEAN SAUCE</div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF W/ BROCCOLI <strong>OR</strong> MIXED VEGETABLE <strong>OR</strong> SNOW PEAS</div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              GINGER BEEF W/ STRING BEANS
+            </div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              KUNG PAO BEEF
+            </div>
+            <div class="col-3 text-right">11.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEEF W/ CHINESE EGGPLANT
+            </div>
+            <div class="col-3 text-right">12.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              PORK W/ SCALLION
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------SEAFOOD----------------------->
+  <a class="anchor" id="seafood"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">SEAFOOD</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP W/ LOBSTER SAUCE</div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP W/ SALT AND BLACK PEPPER</div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">STIR FRIED SHRIMP AND CHICKEN</div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP IN CHILI SAUCE</div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP W/ BROCCOLI <strong>OR</strong> MIXED VEGETABLE <strong>OR</strong> SNOW PEAS
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              GINGER SHRIMP W/ STRING BEANS
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SHRIMP W/ CASHEW NUTS
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SHRIMP W/ GARLIC SAUCE
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SHRIMP W/ BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              KUNG PAO SHRIMP
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              HUNAN SHRIMP
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SCALLOP IN GARLIC SAUCE</div>
+            <div class="col-3 text-right">15.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SCALLOP IN CHILI SAUCE
+            </div>
+            <div class="col-3 text-right">15.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SCALLOP IN BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">15.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              KUNG PAO CALAMARI
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              CALAMARI W/ BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SPICY CLAMS W/ BASIL
+            </div>
+            <div class="col-3 text-right">13.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------vegetable----------------------->
+  <a class="anchor" id="vegetable"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">VEGETABLE</h2>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BUDDHIST DELIGHT</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">MR. GREEN<br /><span class="menu-detail">string beans, broccoli, snow peas</span></div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SAUTEED STRING BEANS</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SAUTEED CABBAGE</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">MIXED VEGETABLE W/ GARLIC SAUCE</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BROCCOLI W/ GARLIC SAUCE
+            </div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              EGGPLANT W/ GARLIC SAUCE
+            </div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              EGGPLANT W/ PEKING SAUCE
+            </div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEAN CURD SZECHUAN STYLE
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              KUNG PAO BEAN CURD
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEAN CURD W/ MIXED VEGETABLE
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEAN CURD W/ BLACK BEAN SAUCE
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------moo shu----------------------->
+  <a class="anchor" id="moo-shu"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles-des">MOO SHU</h2>
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-6 col-xs-7">
+          <p class="section-description">Moo Shu is a classic Mandarin dish. These dishes contain cabbage, scallion,
+            mushrooms and scrambled egg. Served with 4 pieces of pancakes</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN MOO SHU</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK MOO SHU</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEEF MOO SHU
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              VEGETABLE MOO SHU
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SHRIMP MOO SHU
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              HOUSE SPEACIAL MOO SHU
+            </div>
+            <div class="col-3 text-right">11.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              DOUBLE STAR MOO SHU<br><span class="menu-detail">Thick strips of prime beef cooked in a exquiste sesame
+                sauce and the other side with string bean in kung pao sauce</span>
+            </div>
+            <div class="col-3 text-right">11.45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------HEALTH FOOD----------------------->
+  <a class="anchor" id="health-food"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles-des">HEALTH FOOD</h2>
+      <div class="row justify-content-center my-3">
+        <div class="col-md-7">
+          <p class="section-description">Perfect for low calories and low fat needs.<br> Served with soy ginger
+            vinaigrette</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN MOO SHU</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK MOO SHU</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              BEEF MOO SHU
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              VEGETABLE MOO SHU
+            </div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              SHRIMP MOO SHU
+            </div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              HOUSE SPEACIAL MOO SHU
+            </div>
+            <div class="col-3 text-right">11.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">
+              DOUBLE STAR MOO SHU<br><span class="menu-detail">Thick strips of prime beef cooked in a exquiste sesame
+                sauce and the other side with string bean in kung pao sauce</span>
+            </div>
+            <div class="col-3 text-right">11.45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------- rice --------------------->
+  <a class="anchor" id="rice"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">RICE</h2>
+      <div class="row my-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">WHITE RICE</div>
+            <div class="col-3 text-right">1.50(S)</div>
+            <div class="col-3 text-right offset-8">2.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BROWN RICE</div>
+            <div class="col-3 text-right">1.95(S)</div>
+            <div class="col-3 text-right offset-8">3.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">7.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">EGG FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">7.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BASIL FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CURRY FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PINEAPPLE FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK OR CHIKEN FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF OR SHRIMP FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HOUSE SPECIAL FRIED RICE</div>
+            <div class="col-3 text-right">5.45(S)</div>
+            <div class="col-3 text-right offset-8">8.45(L)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------- LO MEIN --------------------->
+  <a class="anchor" id="lo-mein"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">LO MEIN</h2>
+      <div class="row my-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE LOMEIN</div>
+            <div class="col-3 text-right">6.25(S)</div>
+            <div class="col-3 text-right offset-8">8.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK OR CHICKEN LOMEIN</div>
+            <div class="col-3 text-right">6.25(S)</div>
+            <div class="col-3 text-right offset-8">9.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF OR SHRIMP LOMEIN</div>
+            <div class="col-3 text-right">6.55(S)</div>
+            <div class="col-3 text-right offset-8">9.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HOUSE SPECIAL LOMEIN</div>
+            <div class="col-3 text-right">6.95(S)</div>
+            <div class="col-3 text-right offset-8">10.45(L)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------- CHOW MEIN --------------------->
+  <a class="anchor" id="chow-mein"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">CHOW MEIN</h2>
+      <div class="row my-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE CHOW MEIN</div>
+            <div class="col-3 text-right">6.25(S)</div>
+            <div class="col-3 text-right offset-8">8.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK OR CHICKEN CHOW MEIN</div>
+            <div class="col-3 text-right">6.25(S)</div>
+            <div class="col-3 text-right offset-8">9.45(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF OR SHRIMP CHOW MEIN</div>
+            <div class="col-3 text-right">6.55(S)</div>
+            <div class="col-3 text-right offset-8">9.95(L)</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HOUSE SPECIAL LOCHOW MEIN</div>
+            <div class="col-3 text-right">6.95(S)</div>
+            <div class="col-3 text-right offset-8">10.45(L)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------- PAD THAI --------------------->
+  <a class="anchor" id="pad-thai"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">PAD THAI</h2>
+      <div class="row my-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE PAD THAI</div>
+            <div class="col-3 text-right">9.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN PAD THAI</div>
+            <div class="col-3 text-right">9.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHIRMP PAD THAI</div>
+            <div class="col-3 text-right">10.45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------- HO FOON --------------------->
+  <a class="anchor" id="ho-foon"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles-des">HO FOON</h2>
+      <div class="row justify-content-center my-3">
+        <div class="col-md-7">
+          <p class="section-description">WIDE RICE NOOLLE</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE HO FOON</div>
+            <div class="col-3 text-right">9.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK HO FOON</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN HO FOON</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF HO FOON</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP HO FOON</div>
+            <div class="col-3 text-right">10.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">HOUSE SPECIAL HO FOON</div>
+            <div class="col-3 text-right">10.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------- EGG FOO YOUNG --------------------->
+  <a class="anchor" id="foo-young"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">EGG FOO YOUNG</h2>
+      <div class="row my-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">VEGETABLE EGG FOO YOUNG</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">PORK EGG FOO YOUNG</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">CHICKEN EGG FOO YOUNG</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">BEEF EGG FOO YOUNG</div>
+            <div class="col-3 text-right">8.95</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SHRIMP HO FOON</div>
+            <div class="col-3 text-right">9.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------- RICE NOODLE --------------------->
+  <a class="anchor" id="rice-noodle"></a>
+  <section>
+    <div class="container menu-sections">
+      <h2 class="menu-titles">RICE NOODLE</h2>
+      <div class="row my-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-3">
+            <div class="col-8">HOUSE SPECIAL RICE NOODLE<br><span class="menu-detail">Fine rice noodle with chicken,
+                shrimp, pork, and vegetables in brown sauce</span></div>
+            <div class="col-3 text-right">10.45</div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="row justify-content-center mb-4">
+            <div class="col-8">SINGAPORE RICE NOODLE<br><span class="menu-detail">Fine rice noodle with chicken, shrimp,
+                pork, and vegetables flavored with curry</span></div>
+            <div class="col-3 text-right">10.45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="main-footer">
+    <div class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col text-center py-5">
@@ -134,29 +1580,24 @@
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    <script>
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
-    </script>
-  </body>
+  <script>
+    // Get the current year for the copyright
+    $("#year").text(new Date().getFullYear());
+  </script>
+</body>
+
 </html>
 
 <footer></footer>

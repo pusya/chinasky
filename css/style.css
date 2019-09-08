@@ -216,7 +216,7 @@ a.anchor {
   }
 
   .p-image,
-  .p-image2 {
+  #p-image2 {
     background-attachment: scroll;
   }
 

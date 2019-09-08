@@ -212,7 +212,7 @@ a.anchor {
   }
 
   a.anchor {
-    top: -90rem;
+    top: -70rem;
   }
 
   .p-image,
@@ -225,7 +225,7 @@ a.anchor {
   }
   #p-image2 {
     height: 350px;
-    background-position: center;
+    background-position: right bottom;
   }
   #heading-b {
     margin-top: 4rem;

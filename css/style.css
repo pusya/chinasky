@@ -199,6 +199,13 @@ a:focus {
 a.anchor {
   display: block;
   position: relative;
-  top: -105px;
+  top: -7rem;
   visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  #heading,
+  .heading-text {
+    margin-left: 1rem;
+  }
 }

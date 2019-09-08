@@ -23,9 +23,9 @@ body {
 .p-image {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
   background-attachment: fixed;
   width: 100%;
+  background-size: cover;
 }
 
 #welcome {
@@ -67,10 +67,10 @@ body {
   height: 530px;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: 100% auto;
   background-attachment: fixed;
   margin-top: 5rem;
   width: 100%;
+  background-size: cover;
 }
 
 #heading-b {
@@ -111,21 +111,6 @@ a:hover,
 a:focus {
   color: #000;
   text-decoration: underline;
-}
-
-@media only screen and (max-width: 600px) {
-  #heading {
-    font-size: 2rem;
-    margin-top: 18rem;
-  }
-  .heading-text {
-    font-size: 1rem;
-  }
-
-  #heading-b,
-  #hours {
-    margin: 2rem;
-  }
 }
 
 /* location page*/
@@ -208,16 +193,30 @@ a.anchor {
 }
 
 @media only screen and (max-width: 700px) {
+  #heading {
+    font-size: 2rem;
+    margin-top: 18rem;
+  }
+  .heading-text {
+    font-size: 1rem;
+  }
+
+  #heading-b,
+  #hours {
+    margin: 2rem;
+  }
+
   #heading,
   .heading-text {
     margin-left: 1rem;
   }
 
   a.anchor {
-    top: -6rem;
+    top: -10rem;
   }
 
-  #welcome {
-    background-image: url("../img/img1-s.jpg");
+  .p-image,
+  .p-image2 {
+    background-attachment: scroll;
   }
 }

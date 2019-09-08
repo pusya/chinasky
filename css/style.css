@@ -211,10 +211,6 @@ a.anchor {
     margin-left: 1rem;
   }
 
-  a.anchor {
-    top: -140rem;
-  }
-
   .p-image,
   #p-image2 {
     background-attachment: scroll;

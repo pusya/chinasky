@@ -226,4 +226,8 @@ a.anchor {
   #heading-b {
     margin-top: 4rem;
   }
+
+  a.anchor {
+    top: -17rem;
+  }
 }

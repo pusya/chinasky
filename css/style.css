@@ -23,7 +23,7 @@ body {
 .p-image {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-attachment: fixed;
   width: 100%;
 }
@@ -67,7 +67,7 @@ body {
   height: 530px;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-attachment: fixed;
   margin-top: 5rem;
   width: 100%;
@@ -218,10 +218,6 @@ a.anchor {
   }
 
   #welcome {
-    background-image: url("../img/img1-s.jpg");
-  }
-
-  #p-image2 {
     background-image: url("../img/img1-s.jpg");
   }
 }

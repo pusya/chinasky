@@ -212,11 +212,16 @@ a.anchor {
   }
 
   a.anchor {
-    top: -10rem;
+    top: -15rem;
   }
 
   .p-image,
   .p-image2 {
     background-attachment: scroll;
+  }
+
+  #welcome,
+  #p-image2 {
+    height: 430px;
   }
 }

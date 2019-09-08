@@ -133,7 +133,6 @@ a:focus {
 #location {
   background-image: url("../img/img5.jpg");
   height: 420px;
-  width: 100%;
 }
 
 #location-text {
@@ -155,7 +154,6 @@ a:focus {
 #menu {
   background-image: url("../img/img3.jpg");
   height: 420px;
-  width: 100%;
 }
 
 .menu-sections {
@@ -216,6 +214,10 @@ a.anchor {
   }
 
   a.anchor {
-    top: -9rem;
+    top: -6rem;
+  }
+
+  #welcome {
+    background-image: url("../img/img1-s.jpg");
   }
 }

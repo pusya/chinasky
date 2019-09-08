@@ -3,6 +3,8 @@ body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
 }
+
+/* welcome page */
 .navbar-brand img {
   width: 9rem;
 }
@@ -23,6 +25,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
 }
 
 #welcome {
@@ -67,6 +70,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   margin-top: 5rem;
+  width: 100%;
 }
 
 #heading-b {
@@ -129,6 +133,7 @@ a:focus {
 #location {
   background-image: url("../img/img5.jpg");
   height: 420px;
+  width: 100%;
 }
 
 #location-text {
@@ -150,6 +155,7 @@ a:focus {
 #menu {
   background-image: url("../img/img3.jpg");
   height: 420px;
+  width: 100%;
 }
 
 .menu-sections {
@@ -207,5 +213,9 @@ a.anchor {
   #heading,
   .heading-text {
     margin-left: 1rem;
+  }
+
+  a.anchor {
+    top: -9rem;
   }
 }

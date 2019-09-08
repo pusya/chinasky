@@ -65,7 +65,7 @@ body {
 #p-image2 {
   background-image: url("../img/img4.jpg");
   height: 530px;
-  background-position: center bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-top: 5rem;
@@ -192,7 +192,7 @@ a.anchor {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1025px) {
   #heading {
     font-size: 2rem;
     margin-top: 18rem;
@@ -212,7 +212,7 @@ a.anchor {
   }
 
   a.anchor {
-    top: -70rem;
+    top: -110rem;
   }
 
   .p-image,

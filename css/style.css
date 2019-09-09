@@ -189,7 +189,6 @@ a.anchor {
   display: block;
   position: relative;
   top: -7rem;
-  visibility: hidden;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -225,9 +224,5 @@ a.anchor {
   }
   #heading-b {
     margin-top: 4rem;
-  }
-
-  a.anchor {
-    top: 0rem;
   }
 }

@@ -16,8 +16,13 @@ body {
   text-align: right;
 }
 
-.navbar-toggler:focus {
+.navbar-toggler:focus,
+.navbar-toggler {
   outline: none !important;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 .p-image {
@@ -29,7 +34,7 @@ body {
 }
 
 #welcome {
-  background-image: url("../img/img1.jpg");
+  background-image: url("../img/img1.png");
   height: 690px;
 }
 
@@ -86,11 +91,11 @@ body {
 }
 
 #space3 {
-  padding-left: 0.35rem;
+  padding-left: 0.48rem;
 }
 
 #space4 {
-  padding-left: 0.1rem;
+  padding-left: 0.25rem;
 }
 
 #main-footer {
@@ -219,11 +224,22 @@ a.anchor {
   #welcome {
     height: 500px;
   }
+
   #p-image2 {
     height: 350px;
     background-position: right bottom;
   }
   #heading-b {
     margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  #hours {
+    font-size: 0.8rem;
+  }
+
+  #space4 {
+    padding-left: 0.5rem;
   }
 }

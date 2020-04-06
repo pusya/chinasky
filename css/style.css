@@ -242,4 +242,8 @@ a.anchor {
   #space4 {
     padding-left: 0.5rem;
   }
+
+  #heading {
+    margin-top: 10rem;
+  }
 }

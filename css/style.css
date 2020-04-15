@@ -45,7 +45,11 @@ body {
 }
 
 #heading {
-  margin-top: 22rem;
+  margin-top: 14rem;
+}
+
+#note {
+  font-weight: bolder;
 }
 
 .lead-img {
@@ -83,11 +87,11 @@ body {
 }
 
 #space1 {
-  padding-left: 2.5rem;
+  padding-left: 2.45rem;
 }
 
 #space2 {
-  padding-left: 2.1rem;
+  padding-left: 2.15rem;
 }
 
 #space3 {
@@ -118,6 +122,9 @@ a:focus {
   text-decoration: underline;
 }
 
+#order-online {
+  background-color: rgba(193, 227, 253, 0.938);
+}
 /* location page*/
 
 #location {
@@ -200,7 +207,7 @@ a.anchor {
 @media only screen and (max-width: 1025px) {
   #heading {
     font-size: 2rem;
-    margin-top: 18rem;
+    margin-top: 13rem;
   }
   .heading-text {
     font-size: 1rem;
@@ -244,6 +251,10 @@ a.anchor {
   }
 
   #heading {
-    margin-top: 10rem;
+    margin-top: 8rem;
+  }
+
+  .special {
+    margin: 0;
   }
 }

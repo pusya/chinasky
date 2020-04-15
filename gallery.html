@@ -52,13 +52,22 @@
             <li class="nav-item pl-1">
               <a class="nav-link" href="gallery.html">GALLERY</a>
             </li>
+            <li class="nav-item pl-1">
+              <a
+                class="nav-link"
+                target="_blank"
+                id="order-online"
+                href="https://www.beyondmenu.com/54741/medfield/china-sky-medfield-02052.aspx?utm_source=satellite&utm_medium=home_order&_"
+                >ORDER ONLINE</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <header id="gallery">
-      <div class="container ">
+      <div class="container">
         <h4 class="display-5 mb-5">
           Photo Gallery
         </h4>
@@ -266,7 +275,7 @@
       $("#year").text(new Date().getFullYear());
 
       //lightbox init
-      $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
         event.preventDefault();
         $(this).ekkoLightbox();
       });
